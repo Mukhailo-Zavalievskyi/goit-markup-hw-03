@@ -98,6 +98,7 @@ button {
 
 .page-header-container {
     display: flex;
+    align-items: center;
 }
 
 .page-navigation {
@@ -108,11 +109,6 @@ button {
 .menu {
     display: flex;
     gap: 40px;
-}
-
-.menu-link {
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .logo-first-part {
@@ -137,6 +133,9 @@ button {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .menu-link:hover,
@@ -149,8 +148,6 @@ button {
     display: flex;
     gap: 40px;
     margin-left: auto;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .contacts-link {
@@ -280,7 +277,6 @@ button {
     column-gap: 24px;
     flex-wrap: wrap;
     row-gap: 48px;
-    padding-bottom: 120px;
 }
 
 .name-portfolio-list-item {
@@ -330,6 +326,4 @@ button {
 
 .footer-logo-second-part {
     color: #f4f4fd;
-    display: inline-block;
-    margin-bottom: 16px;
 }
